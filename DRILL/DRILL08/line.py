@@ -2,6 +2,7 @@ import turtle
 import random
 import math
 
+
 def stop():
     turtle.bye()
 
@@ -48,6 +49,7 @@ def draw_big_point(p):
 def draw_point(p):
     turtle.goto(p)
     turtle.dot(5, random.random(), random.random(), random.random())
+
 
 # 직선의 방정식
 def draw_line_basic(p1, p2):
